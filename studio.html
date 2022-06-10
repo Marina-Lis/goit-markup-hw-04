@@ -19,7 +19,7 @@
     <header class="header">
         <div class="container head-wrapper">
             <nav class="header-nav">
-                <a href="index.html" class="header-logo link"><span>Web</span>Studio</a>
+                <a href="./index.html" class="header-logo link"><span>Web</span>Studio</a>
                 <ul class="header-list list">
                     <li class="header-item"><a class="header-link  link" href="./studio.html">Студия</a></li>
                     <li class="header-item"><a class="header-link  link" href="./portfolio.html">Портфолио</a></li>
@@ -27,9 +27,17 @@
                 </ul>
             </nav>
             <ul class="header-cont-nav list">
-                <li class="header-item"> <a href="mailto:info@devstudio.com"
-                        class="header-contant link">info@devstudio.com</a> </li>
-                <li class="header-item"> <a href="tel:+380961111111" class="header-contant link">+38 096 111 11 11</a>
+                <li class="header-item">
+                    <svg class="header-icon" width="12" height="16">
+                        <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                    </svg>
+                    <a href="mailto:info@devstudio.com" class="header-contant link">info@devstudio.com</a>
+                </li>
+                <li class="header-item">
+                    <svg class="header-icon" width="12" height="16">
+                        <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                    </svg>
+                    <a href="tel:+380961111111" class="header-contant link">+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -38,10 +46,11 @@
     <main>
 
     </main>
-    <footer class="footer">
-        <div class="container">
+<footer class="footer">
+    <div class="container footer-wrap">
+        <div class="foot-box-1">
             <h2 class="sr-only">Контакты</h2>
-            <a class="footer-logo link" href="index.html"><span>Web</span>Studio</a>
+            <a class="footer-logo link" href="./index.html"><span>Web</span>Studio</a>
             <address class="footer-adress">
                 <ul class="footer-list list">
                     <li class="footer-item"><a class="footer-map-link link footer-common"
@@ -59,7 +68,32 @@
                 </ul>
             </address>
         </div>
-    </footer>
+        <div class="footer-box-2">
+            <h3 class="h-footer">присоединяйтесь</h3>
+            <ul class="footer-soc-list list">
+                <li class="footer-soc-item"><a href="" class="footer-soc-link"><svg class="footer-soc-icon" width="20"
+                            height="20">
+                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg></a></li>
+                <li class="footer-soc-item"><a href="" class="footer-soc-link"><svg class="footer-soc-icon" width="20"
+                            height="20">
+                            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                        </svg></a></li>
+                <li class="footer-soc-item"><a href="" class="footer-soc-link"><svg class="footer-soc-icon" width="20"
+                            height="20">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg></a></li>
+                <li class="footer-soc-item">
+                    <a href="" class="footer-soc-link">
+                        <svg class="footer-soc-icon" width="20" height="20">
+                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </body>
 
 </html>
