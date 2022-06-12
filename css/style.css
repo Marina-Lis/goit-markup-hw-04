@@ -152,12 +152,15 @@ body {
   color: var(--primary-text-color);
 }
 
-.header-item:hover .header-icon {
+.header-item:hover .header-icon,
+.header-item:focus .header-icon {
 
   fill: #2196F3;
 }
 
-.header-item:hover .header-contant {
+.header-item:hover .header-contant, 
+.header-item:focus .header-contant,
+{
   color: var(--accent-text-color);
 }
 
