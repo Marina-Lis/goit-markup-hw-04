@@ -145,24 +145,29 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
 }
 
 .header-link {
   color: var(--primary-text-color);
 }
 
-.header-item:hover .header-icon,
-.header-item:focus .header-icon {
+.header-link:hover,
+.header-link:focus,
+.header-contant:focus,
+.header-contant:hover {
+  color: var(--accent-text-color)
+}
 
+
+.header-item:focus .header-icon,
+.header-item:hover .header-icon {
   fill: #2196F3;
 }
 
-.header-item:hover .header-contant, 
-.header-item:focus .header-contant,
-{
+/*.header-item:focus .header-contant,
+.header-item:hover .header-contant {
   color: var(--accent-text-color);
-}
+}*/
 
 /*-------------------------hero---------------------*/
 .hero {
@@ -248,7 +253,10 @@ body {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  /*padding: 25px 100px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
