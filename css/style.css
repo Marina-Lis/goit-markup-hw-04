@@ -123,11 +123,6 @@ body {
   margin-right: 0;
 }*/
 
-.header-icon {
-  margin-right: 10px;
-  fill: var(--secondary-text-collor);
-}
-
 
 .header-cont-nav {
   display: flex;
@@ -147,6 +142,11 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header-link {
   color: var(--primary-text-color);
 }
@@ -159,8 +159,7 @@ body {
 }
 
 
-.header-item:focus .header-icon,
-.header-item:hover .header-icon {
+.header-item:focus .header-icon {
   fill: #2196F3;
 }
 
